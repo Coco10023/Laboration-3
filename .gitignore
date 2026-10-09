@@ -1,0 +1,13 @@
+@"
+# Visual Studios lokala filer
+.vs/
+*.user
+*.suo
+
+# Kompilerade filer
+bin/
+obj/
+
+# Gästbokens sparade data
+guestbook.json
+"@ | Set-Content .gitignore
